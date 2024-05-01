@@ -207,7 +207,7 @@ int main()
         }
         catch(const CheckingPositiveNumberException &e)
         {
-            cerr << ": " << e.what() << endl;
+            cerr << "Exception: " << e.what() << endl;
 
         }
     }
